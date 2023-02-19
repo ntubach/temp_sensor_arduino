@@ -48,7 +48,9 @@ void setup()
   readTempSenor();
 
   // Program welcome
-  Serial.println("Module 2: Temperature reader");
+  // Serial.println("Module 2: Temperature reader");
+  // Setup headers for data
+  Serial.println("Time (s),Temperature (F)");
 }
 
 void loop()
